@@ -1,0 +1,1 @@
+ffplay %1.mp4
