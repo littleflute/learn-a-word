@@ -1,0 +1,1 @@
+ffmpeg -i %1 -ignore_loop %2 -i %3 -filter_complex "[1:v]scale=%4:%5[s];[0:v][s]overlay=%6:%7" %8
